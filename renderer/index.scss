@@ -1,0 +1,46 @@
+@import "./common/reset.scss";
+@import "./common/inconsolata/inconsolata.scss";
+
+
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+html {
+    font-family: 'Inconsolata', monospace;
+}
+
+html, body, #app {
+    height: 100%;
+}
+
+.fw {
+    width: 100%;
+}
+
+.fh {
+    height: 100%;
+}
+
+.fl {
+    display: flex;
+}
+
+.fl-gr {
+    flex-grow: 1;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.point {
+    cursor: pointer;
+}

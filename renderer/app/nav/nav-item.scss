@@ -1,0 +1,17 @@
+@import "./nav.scss";
+
+.nav-item {
+    width: $nav-item-size;
+    height: $nav-item-size;
+    text-decoration: none;
+
+    .fa {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.nav-item-label {
+    margin-top: .5rem;
+    font-size: .75rem;
+}
